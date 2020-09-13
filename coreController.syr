@@ -1,0 +1,960 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: coreController.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "coreController.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "coreController"
+Output Format                      : NGC
+Target Device                      : xc3s50a-4-tq144
+
+---- Source Options
+Top Module Name                    : coreController
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "ipcore_dir/coreRam.v" in library work
+Compiling verilog file "fastSerialBus.v" in library work
+Module <coreRam> compiled
+Compiling verilog file "coreCommunication.v" in library work
+Module <fastSerialBus> compiled
+Compiling verilog file "core.v" in library work
+Module <coreCommunication> compiled
+Compiling verilog file "ccPer.v" in library work
+Module <core> compiled
+Compiling verilog file "ipcore_dir/rom001.v" in library work
+Module <ccPer> compiled
+Compiling verilog file "clk.v" in library work
+Module <rom001> compiled
+Compiling verilog file "diskAccessController.v" in library work
+Module <clk> compiled
+Compiling verilog file "coreSet_001.v" in library work
+Module <diskAccessController> compiled
+Compiling verilog file "ccbAccessController.v" in library work
+Module <coreSet_001> compiled
+Compiling verilog file "coreController.v" in library work
+Module <ccbAccessController> compiled
+Compiling verilog file "vClk.v" in library work
+Module <coreController> compiled
+Module <vClk> compiled
+No errors in compilation
+Analysis of file <"coreController.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <coreController> in library <work>.
+
+Analyzing hierarchy for module <diskAccessController> in library <work>.
+
+Analyzing hierarchy for module <ccbAccessController> in library <work>.
+
+Analyzing hierarchy for module <coreSet_001> in library <work>.
+
+Analyzing hierarchy for module <clk> in library <work>.
+
+Analyzing hierarchy for module <ccPer> in library <work>.
+
+Analyzing hierarchy for module <core> in library <work>.
+
+Analyzing hierarchy for module <coreCommunication> in library <work>.
+
+Analyzing hierarchy for module <fastSerialBus> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <coreController>.
+WARNING:Xst:2211 - "ipcore_dir/rom001.v" line 31: Instantiating black box module <rom001>.
+Module <coreController> is correct for synthesis.
+ 
+Analyzing module <diskAccessController> in library <work>.
+Module <diskAccessController> is correct for synthesis.
+ 
+Analyzing module <ccbAccessController> in library <work>.
+Module <ccbAccessController> is correct for synthesis.
+ 
+Analyzing module <coreSet_001> in library <work>.
+WARNING:Xst:1611 - "core.v" line 3: Port pData is declared twice. Second occurrence will be ignored.
+WARNING:Xst:852 - "coreSet_001.v" line 21: Unconnected input port 'cycle' of instance 'cCom' is tied to GND.
+Module <coreSet_001> is correct for synthesis.
+ 
+Analyzing module <ccPer> in library <work>.
+Module <ccPer> is correct for synthesis.
+ 
+Analyzing module <core> in library <work>.
+WARNING:Xst:2211 - "ipcore_dir/coreRam.v" line 166: Instantiating black box module <coreRam>.
+Module <core> is correct for synthesis.
+ 
+Analyzing module <coreCommunication> in library <work>.
+Module <coreCommunication> is correct for synthesis.
+ 
+Analyzing module <fastSerialBus> in library <work>.
+Module <fastSerialBus> is correct for synthesis.
+ 
+Analyzing module <clk> in library <work>.
+Module <clk> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <clk>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <clk>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <clk>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <clk>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "CLKFX_MULTIPLY =  25" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "CLKIN_PERIOD =  83.333000" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <clk>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <clk>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <mode> in unit <fastSerialBus> has a constant value of 10 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <rxBegin> in unit <fastSerialBus> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <cycleStep> in unit <fastSerialBus> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <diskAccessController>.
+    Related source file is "diskAccessController.v".
+    Found 16-bit tristate buffer for signal <romAddr>.
+    Found 1-bit tristate buffer for signal <rData_port_0<7>>.
+    Found 1-bit tristate buffer for signal <rData_port_0<6>>.
+    Found 1-bit tristate buffer for signal <rData_port_0<5>>.
+    Found 1-bit tristate buffer for signal <rData_port_0<4>>.
+    Found 1-bit tristate buffer for signal <rData_port_0<3>>.
+    Found 1-bit tristate buffer for signal <rData_port_0<2>>.
+    Found 1-bit tristate buffer for signal <rData_port_0<1>>.
+    Found 1-bit tristate buffer for signal <rData_port_0<0>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<7>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<6>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<5>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<4>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<3>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<2>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<1>>.
+    Found 1-bit tristate buffer for signal <rData_port_1<0>>.
+    Found 2-bit register for signal <ag>.
+    Found 2-bit up counter for signal <port_sel>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred  48 Tristate(s).
+Unit <diskAccessController> synthesized.
+
+
+Synthesizing Unit <ccbAccessController>.
+    Related source file is "ccbAccessController.v".
+WARNING:Xst:2563 - Inout <arag_1<0>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <arag_2<0>> is never assigned. Tied to value Z.
+WARNING:Xst:646 - Signal <ag_2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ag_1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <fifo_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit tristate buffer for signal <arag_1<0>>.
+    Found 1-bit tristate buffer for signal <arag_2<0>>.
+    Found 1-bit register for signal <busy>.
+    Found 2-bit up counter for signal <rPointer>.
+    Found 2-bit up counter for signal <wPointer>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Tristate(s).
+Unit <ccbAccessController> synthesized.
+
+
+Synthesizing Unit <ccPer>.
+    Related source file is "ccPer.v".
+WARNING:Xst:2563 - Inout <cData<16>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <cData<17>> is never assigned. Tied to value Z.
+WARNING:Xst:1780 - Signal <pMap> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Register <cMap<14>> equivalent to <ar> has been removed
+    Found finite state machine <FSM_0> for signal <ccState>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 3                                              |
+    | Clock              | fastClk                   (falling_edge)       |
+    | Power Up State     | 0000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:643 - "ccPer.v" line 26: The result of a 8x8-bit multiplication is partially used. Only the 8 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 1-bit tristate buffer for signal <pData<15>>.
+    Found 1-bit tristate buffer for signal <pData<14>>.
+    Found 1-bit tristate buffer for signal <pData<13>>.
+    Found 1-bit tristate buffer for signal <pData<12>>.
+    Found 1-bit tristate buffer for signal <pData<11>>.
+    Found 1-bit tristate buffer for signal <pData<10>>.
+    Found 1-bit tristate buffer for signal <pData<9>>.
+    Found 1-bit tristate buffer for signal <pData<8>>.
+    Found 1-bit tristate buffer for signal <cData<17>>.
+    Found 1-bit tristate buffer for signal <cData<16>>.
+    Found 10-bit subtractor for signal <$sub0000> created at line 77.
+    Found 8-bit register for signal <A>.
+    Found 1-bit register for signal <ar>.
+    Found 8-bit register for signal <B>.
+    Found 8-bit comparator less for signal <ccState$cmp_lt0000> created at line 96.
+    Found 8-bit comparator less for signal <ccState$cmp_lt0001> created at line 84.
+    Found 7-bit comparator less for signal <ccState$cmp_lt0002> created at line 54.
+    Found 1-bit register for signal <cMap<15>>.
+    Found 6-bit register for signal <cMap<13:8>>.
+    Found 7-bit register for signal <lBuff>.
+    Found 7-bit register for signal <load>.
+    Found 7-bit adder for signal <load$share0000>.
+    Found 8-bit register for signal <loadSize>.
+    Found 8-bit adder for signal <pData_15_8$add0000> created at line 26.
+    Found 8x8-bit multiplier for signal <pData_15_8$mult0001> created at line 26.
+    Found 9-bit subtractor for signal <pData_15_8$sub0000> created at line 26.
+    Found 16-bit register for signal <pivot>.
+    Found 16-bit register for signal <rMap>.
+    Found 16-bit adder for signal <rMap$addsub0000> created at line 97.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  78 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   3 Comparator(s).
+	inferred  10 Tristate(s).
+Unit <ccPer> synthesized.
+
+
+Synthesizing Unit <fastSerialBus>.
+    Related source file is "fastSerialBus.v".
+WARNING:Xst:647 - Input <tEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rEN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit tristate buffer for signal <RxTx>.
+    Found 1-bit register for signal <rDONE>.
+    Found 1-bit register for signal <tDONE>.
+    Found 8-bit register for signal <rDP>.
+    Found 16-bit adder carry out for signal <add0000$addsub0000> created at line 52.
+    Found 16-bit up counter for signal <bitNum>.
+    Found 16-bit adder for signal <bitNum$mux0000>.
+    Found 16-bit up counter for signal <cycleStep>.
+    Found 16-bit comparator not equal for signal <rDP_0$cmp_ne0001> created at line 58.
+    Found 1-bit register for signal <rxBegin>.
+    Found 1-bit register for signal <rxStart>.
+    Found 17-bit comparator not equal for signal <rxStart$cmp_ne0000> created at line 52.
+    Found 1-bit register for signal <tx>.
+    Found 16-bit comparator equal for signal <tx$cmp_eq0000> created at line 88.
+    Found 1-bit register for signal <txBegin>.
+    Found 1-bit register for signal <txStart>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  15 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <fastSerialBus> synthesized.
+
+
+Synthesizing Unit <clk>.
+    Related source file is "clk.v".
+Unit <clk> synthesized.
+
+
+Synthesizing Unit <core>.
+    Related source file is "core.v".
+WARNING:Xst:2563 - Inout <cData<17>> is never assigned. Tied to value Z.
+    Found finite state machine <FSM_1> for signal <step>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | medClk                    (rising_edge)        |
+    | Clock enable       | step$not0000              (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit tristate buffer for signal <cData<17>>.
+    Found 6-bit register for signal <addr>.
+    Found 1-bit register for signal <comIn>.
+    Found 2-bit register for signal <command>.
+    Found 6-bit register for signal <dest>.
+    Found 1-bit register for signal <localHlt>.
+    Found 6-bit comparator lessequal for signal <localHlt$cmp_le0000> created at line 135.
+    Found 6-bit register for signal <next>.
+    Found 6-bit adder for signal <next$share0000>.
+    Found 15-bit register for signal <pMap>.
+    Found 6-bit register for signal <prev>.
+    Found 8-bit register for signal <rin>.
+    Found 1-bit register for signal <rwe>.
+    Found 8-bit register for signal <storage>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  60 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   1 Tristate(s).
+Unit <core> synthesized.
+
+
+Synthesizing Unit <coreCommunication>.
+    Related source file is "coreCommunication.v".
+WARNING:Xst:2563 - Inout <pData<10>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <pData<11>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <pData<8>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <pData<12>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <pData<9>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <pData<13>> is never assigned. Tied to value Z.
+WARNING:Xst:647 - Input <fastClk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2563 - Inout <pData<14>> is never assigned. Tied to value Z.
+WARNING:Xst:2563 - Inout <pData<15>> is never assigned. Tied to value Z.
+    Register <portRxEn> equivalent to <dataRxEn> has been removed
+    Register <portTxEn> equivalent to <dataTxEn> has been removed
+    Found finite state machine <FSM_2> for signal <mode>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 6                                              |
+    | Outputs            | 5                                              |
+    | Clock              | medClk                    (rising_edge)        |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_3> for signal <rStep>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | medClk                    (rising_edge)        |
+    | Clock enable       | mode$cmp_eq0004           (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <cHlt>.
+    Found 1-bit tristate buffer for signal <pData<15>>.
+    Found 1-bit tristate buffer for signal <pData<14>>.
+    Found 1-bit tristate buffer for signal <pData<13>>.
+    Found 1-bit tristate buffer for signal <pData<12>>.
+    Found 1-bit tristate buffer for signal <pData<11>>.
+    Found 1-bit tristate buffer for signal <pData<10>>.
+    Found 1-bit tristate buffer for signal <pData<9>>.
+    Found 1-bit tristate buffer for signal <pData<8>>.
+    Found 1-bit tristate buffer for signal <pData<7>>.
+    Found 1-bit tristate buffer for signal <pData<6>>.
+    Found 1-bit tristate buffer for signal <pData<5>>.
+    Found 1-bit tristate buffer for signal <pData<4>>.
+    Found 1-bit tristate buffer for signal <pData<3>>.
+    Found 1-bit tristate buffer for signal <pData<2>>.
+    Found 1-bit tristate buffer for signal <pData<1>>.
+    Found 1-bit tristate buffer for signal <pData<0>>.
+    Found 1-bit register for signal <ar>.
+    Found 1-bit register for signal <dataRxEn>.
+    Found 1-bit register for signal <dataTxEn>.
+    Found 8-bit register for signal <dout>.
+    Found 8-bit comparator not equal for signal <dout$cmp_ne0000> created at line 76.
+    Found 8-bit register for signal <myPort>.
+    Found 8-bit comparator equal for signal <rStep$cmp_eq0000> created at line 76.
+    Found 8-bit register for signal <targetData>.
+    Found 8-bit register for signal <targetPort>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred  36 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred  16 Tristate(s).
+Unit <coreCommunication> synthesized.
+
+
+Synthesizing Unit <coreSet_001>.
+    Related source file is "coreSet_001.v".
+WARNING:Xst:647 - Input <slowClk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <cycle> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found T flip-flop for signal <cntr>.
+    Found 1-bit register for signal <medClk>.
+    Summary:
+	inferred   1 T-type flip-flop(s).
+	inferred   1 D-type flip-flop(s).
+Unit <coreSet_001> synthesized.
+
+
+Synthesizing Unit <coreController>.
+    Related source file is "coreController.v".
+WARNING:Xst:646 - Signal <romAddr<15:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <cycle> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000010.
+WARNING:Xst:1780 - Signal <cin2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found T flip-flop for signal <cntr>.
+    Found 1-bit register for signal <medClk>.
+    Summary:
+	inferred   1 T-type flip-flop(s).
+	inferred   1 D-type flip-flop(s).
+Unit <coreController> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 2
+ 8x8-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 20
+ 10-bit subtractor                                     : 2
+ 16-bit adder                                          : 6
+ 16-bit adder carry out                                : 4
+ 6-bit adder                                           : 2
+ 7-bit adder                                           : 2
+ 8-bit adder                                           : 2
+ 9-bit subtractor                                      : 2
+# Counters                                             : 11
+ 16-bit up counter                                     : 8
+ 2-bit up counter                                      : 3
+# Registers                                            : 161
+ 1-bit register                                        : 125
+ 16-bit register                                       : 4
+ 2-bit register                                        : 2
+ 6-bit register                                        : 8
+ 7-bit register                                        : 4
+ 8-bit register                                        : 18
+# Toggle Registers                                     : 3
+ T flip-flop                                           : 3
+# Latches                                              : 8
+ 2-bit latch                                           : 8
+# Comparators                                          : 24
+ 16-bit comparator equal                               : 4
+ 16-bit comparator not equal                           : 4
+ 17-bit comparator not equal                           : 4
+ 6-bit comparator lessequal                            : 2
+ 7-bit comparator less                                 : 2
+ 8-bit comparator equal                                : 2
+ 8-bit comparator less                                 : 4
+ 8-bit comparator not equal                            : 2
+# Multiplexers                                         : 4
+ 1-bit 8-to-1 multiplexer                              : 4
+# Tristates                                            : 78
+ 1-bit tristate buffer                                 : 76
+ 16-bit tristate buffer                                : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <cs_0/cCom/rStep/FSM> on signal <rStep[1:2]> with user encoding.
+Optimizing FSM <cs_1/cCom/rStep/FSM> on signal <rStep[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <cs_0/cCom/mode/FSM> on signal <mode[1:2]> with user encoding.
+Optimizing FSM <cs_1/cCom/mode/FSM> on signal <mode[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <cs_0/core/step/FSM> on signal <step[1:2]> with user encoding.
+Optimizing FSM <cs_1/core/step/FSM> on signal <step[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <cs_0/controller/ccState/FSM> on signal <ccState[1:2]> with gray encoding.
+Optimizing FSM <cs_1/controller/ccState/FSM> on signal <ccState[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 00
+ 0001  | 01
+ 0010  | 11
+-------------------
+Reading core <ipcore_dir/rom001.ngc>.
+Reading core <ipcore_dir/coreRam.ngc>.
+Loading core <rom001> for timing and area information for instance <r001>.
+Loading core <coreRam> for timing and area information for instance <ram>.
+WARNING:Xst:1290 - Hierarchical block <cAC> is unconnected in block <coreController>.
+   It will be removed from the design.
+WARNING:Xst:1426 - The value init of the FF/Latch rDONE hinder the constant cleaning in the block fSB_port.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rxBegin hinder the constant cleaning in the block fSB_data.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rDONE hinder the constant cleaning in the block fSB_data.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rDONE hinder the constant cleaning in the block fSB_port.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch tDONE hinder the constant cleaning in the block fSB_port.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch tDONE hinder the constant cleaning in the block fSB_data.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rxBegin hinder the constant cleaning in the block fSB_port.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rxBegin hinder the constant cleaning in the block fSB_data.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rDONE hinder the constant cleaning in the block fSB_data.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch tDONE hinder the constant cleaning in the block fSB_port.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch tDONE hinder the constant cleaning in the block fSB_data.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rxBegin hinder the constant cleaning in the block fSB_port.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <pivot_8> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_9> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_10> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_11> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_12> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_13> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_14> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_15> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_8> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_9> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_10> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_11> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_12> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_13> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_14> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <pivot_15> has a constant value of 0 in block <controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <rMap_4> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_5> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_6> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_7> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_8> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_9> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_10> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_11> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_12> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_13> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_14> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_15> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_4> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_5> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_6> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_7> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_8> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_9> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_10> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_11> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_12> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_13> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_14> of sequential type is unconnected in block <controller>.
+WARNING:Xst:2677 - Node <rMap_15> of sequential type is unconnected in block <controller>.
+
+Synthesizing (advanced) Unit <ccPer>.
+	Found pipelined multiplier on signal <pData_15_8_mult0001>:
+		- 1 pipeline level(s) found in a register on signal <A>.
+		Pushing register(s) into the multiplier macro.
+
+		- 1 pipeline level(s) found in a register on signal <B>.
+		Pushing register(s) into the multiplier macro.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_pData_15_8_mult0001 by adding 1 register level(s).
+Unit <ccPer> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# Multipliers                                          : 2
+ 8x8-bit registered multiplier                         : 2
+# Adders/Subtractors                                   : 20
+ 10-bit subtractor                                     : 2
+ 16-bit adder                                          : 6
+ 16-bit adder carry out                                : 4
+ 6-bit adder                                           : 2
+ 7-bit adder                                           : 2
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 2
+# Counters                                             : 11
+ 16-bit up counter                                     : 8
+ 2-bit up counter                                      : 3
+# Registers                                            : 416
+ Flip-Flops                                            : 416
+# Latches                                              : 8
+ 2-bit latch                                           : 8
+# Comparators                                          : 24
+ 16-bit comparator equal                               : 4
+ 16-bit comparator not equal                           : 4
+ 17-bit comparator not equal                           : 4
+ 6-bit comparator lessequal                            : 2
+ 7-bit comparator less                                 : 2
+ 8-bit comparator equal                                : 2
+ 8-bit comparator less                                 : 4
+ 8-bit comparator not equal                            : 2
+# Multiplexers                                         : 4
+ 1-bit 8-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <pivot_8> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pivot_9> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pivot_10> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pivot_11> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pivot_12> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pivot_13> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pivot_14> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pivot_15> has a constant value of 0 in block <ccPer>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1426 - The value init of the FF/Latch rxBegin hinder the constant cleaning in the block fastSerialBus.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch rDONE hinder the constant cleaning in the block fastSerialBus.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch tDONE hinder the constant cleaning in the block fastSerialBus.
+   You should achieve better results by setting this init to 1.
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<3><1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD instance <cAC/fifo_3/1/0>
+   Output signal of LD instance <cAC/fifo_3_ren/1/0>
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<3><0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD instance <cAC/fifo_3/0/0>
+   Output signal of LD instance <cAC/fifo_3_ren/0/0>
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<2><1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD instance <cAC/fifo_2/1/0>
+   Output signal of LD instance <cAC/fifo_2_ren/1/0>
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<2><0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD instance <cAC/fifo_2/0/0>
+   Output signal of LD instance <cAC/fifo_2_ren/0/0>
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<1><1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD instance <cAC/fifo_1/1/0>
+   Output signal of LD instance <cAC/fifo_1_ren/1/0>
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<1><0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD instance <cAC/fifo_1/0/0>
+   Output signal of LD instance <cAC/fifo_1_ren/0/0>
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<0><1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD_1 instance <cAC/fifo_0/1/0>
+   Output signal of LD_1 instance <cAC/fifo_0_ren/1/0>
+
+ERROR:Xst:528 - Multi-source in Unit <ccbAccessController> on signal <fifo<0><0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of LD_1 instance <cAC/fifo_0/0/0>
+   Output signal of LD_1 instance <cAC/fifo_0_ren/0/0>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<7>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_7>
+   Output signal of BUFT instance <cs_0/cCom/pData<7>_dout<7>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<6>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_6>
+   Output signal of BUFT instance <cs_0/cCom/pData<6>_dout<6>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<5>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_5>
+   Output signal of BUFT instance <cs_0/cCom/pData<5>_dout<5>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<4>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_4>
+   Output signal of BUFT instance <cs_0/cCom/pData<4>_dout<4>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<3>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_3>
+   Output signal of BUFT instance <cs_0/cCom/pData<3>_dout<3>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<2>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_2>
+   Output signal of BUFT instance <cs_0/cCom/pData<2>_dout<2>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_1>
+   Output signal of BUFT instance <cs_0/cCom/pData<1>_dout<1>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/core/pMap_0>
+   Output signal of BUFT instance <cs_0/cCom/pData<0>_dout<0>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <cData<15>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD_1 instance <cs_0/controller/cMap_15>
+   Output signal of FD instance <cs_0/cCom/cHlt>
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/cCom/fSB_port/rDONE>
+   Signal <cs_0/cCom/fSB_port/rDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <tDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/cCom/fSB_port/tDONE>
+   Signal <cs_0/cCom/fSB_port/tDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rxBegin>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/cCom/fSB_port/rxBegin>
+   Signal <cs_0/cCom/fSB_port/rxBegin> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_0/cCom/fSB_port/mode<1>> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_0/cCom/fSB_port/mode<0>> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/cCom/fSB_data/rDONE>
+   Signal <cs_0/cCom/fSB_data/rDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <tDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/cCom/fSB_data/tDONE>
+   Signal <cs_0/cCom/fSB_data/tDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rxBegin>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_0/cCom/fSB_data/rxBegin>
+   Signal <cs_0/cCom/fSB_data/rxBegin> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_0/cCom/fSB_data/mode<1>> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_0/cCom/fSB_data/mode<0>> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<7>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_7>
+   Output signal of BUFT instance <cs_1/cCom/pData<7>_dout<7>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<6>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_6>
+   Output signal of BUFT instance <cs_1/cCom/pData<6>_dout<6>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<5>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_5>
+   Output signal of BUFT instance <cs_1/cCom/pData<5>_dout<5>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<4>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_4>
+   Output signal of BUFT instance <cs_1/cCom/pData<4>_dout<4>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<3>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_3>
+   Output signal of BUFT instance <cs_1/cCom/pData<3>_dout<3>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<2>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_2>
+   Output signal of BUFT instance <cs_1/cCom/pData<2>_dout<2>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_1>
+   Output signal of BUFT instance <cs_1/cCom/pData<1>_dout<1>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <pData<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/core/pMap_0>
+   Output signal of BUFT instance <cs_1/cCom/pData<0>_dout<0>>
+
+ERROR:Xst:528 - Multi-source in Unit <coreSet_001> on signal <cData<15>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD_1 instance <cs_1/controller/cMap_15>
+   Output signal of FD instance <cs_1/cCom/cHlt>
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/cCom/fSB_port/rDONE>
+   Signal <cs_1/cCom/fSB_port/rDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <tDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/cCom/fSB_port/tDONE>
+   Signal <cs_1/cCom/fSB_port/tDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rxBegin>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/cCom/fSB_port/rxBegin>
+   Signal <cs_1/cCom/fSB_port/rxBegin> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_1/cCom/fSB_port/mode<1>> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_1/cCom/fSB_port/mode<0>> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/cCom/fSB_data/rDONE>
+   Signal <cs_1/cCom/fSB_data/rDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <tDONE>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/cCom/fSB_data/tDONE>
+   Signal <cs_1/cCom/fSB_data/tDONE> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <rxBegin>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDE instance <cs_1/cCom/fSB_data/rxBegin>
+   Signal <cs_1/cCom/fSB_data/rxBegin> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_1/cCom/fSB_data/mode<1>> in Unit <fastSerialBus> is assigned to GND
+
+ERROR:Xst:528 - Multi-source in Unit <fastSerialBus> on signal <mode<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <cs_1/cCom/fSB_data/mode<0>> in Unit <fastSerialBus> is assigned to GND
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.16 secs
+ 
+--> 
+
+Total memory usage is 4538904 kilobytes
+
+Number of errors   :   46 (   0 filtered)
+Number of warnings :  107 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

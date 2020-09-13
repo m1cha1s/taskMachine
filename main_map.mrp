@@ -1,0 +1,464 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'main'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off
+-c 100 -o main_map.ncd main.ngd main.pcf 
+Target Device  : xc3s50a
+Target Package : tq144
+Target Speed   : -5
+Mapper Version : spartan3a -- $Revision: 1.55 $
+Mapped Date    : Wed Apr 08 17:43:25 2020
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:            27 out of   1,408    1%
+  Number of 4 input LUTs:                23 out of   1,408    1%
+Logic Distribution:
+  Number of occupied Slices:             24 out of     704    3%
+    Number of Slices containing only related logic:      24 out of      24 100%
+    Number of Slices containing unrelated logic:          0 out of      24   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:          30 out of   1,408    2%
+    Number used as logic:                23
+    Number used as a route-thru:          7
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 12 out of     108   11%
+    IOB Flip Flops:                       1
+  Number of BUFGMUXs:                     1 out of      24    4%
+
+Average Fanout of Non-Clock Nets:                2.62
+
+Peak Memory Usage:  4428 MB
+Total REAL time to MAP completion:  0 secs 
+Total CPU time to MAP completion:   0 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 136 block(s) removed
+   2 block(s) optimized away
+ 143 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "cc1/ram1/N0" is sourceless and has been removed.
+The signal "cc1/ram1/N1" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "N0" is unused and has been removed.
+ Unused block "Mrom_data122111" (ROM) removed.
+  The signal "cc1/addr<4>" is unused and has been removed.
+   Unused block "cc1/addr_4" (FF) removed.
+  The signal "cc1/addr<5>" is unused and has been removed.
+   Unused block "cc1/addr_5" (FF) removed.
+  The signal "cc1/addr<3>" is unused and has been removed.
+   Unused block "cc1/addr_3" (FF) removed.
+  The signal "cc1/addr<2>" is unused and has been removed.
+   Unused block "cc1/addr_2" (FF) removed.
+The signal "N2" is unused and has been removed.
+ Unused block "cc1/core1/storage_mux0000<7>_SW0" (ROM) removed.
+  The signal "cc1/core1/step_FSM_FFd2" is unused and has been removed.
+   Unused block "cc1/core1/step_FSM_FFd2" (FF) removed.
+    The signal "cc1/c1" is unused and has been removed.
+     Unused block "cc1/c1_BUFG" (CKBUF) removed.
+      The signal "cc1/c11" is unused and has been removed.
+       Unused block "cc1/c11" (ROM) removed.
+        The signal "cc1/hlt1" is unused and has been removed.
+         Unused block "cc1/hlt1" (FF) removed.
+          The signal "cc1/hlt1_mux0000" is unused and has been removed.
+           Unused block "cc1/hlt1_mux000035" (ROM) removed.
+            The signal "cc1/hlt1_mux000013" is unused and has been removed.
+             Unused block "cc1/hlt1_mux000013" (ROM) removed.
+            The signal "cc1/hlt1_mux00002" is unused and has been removed.
+             Unused block "cc1/hlt1_mux00002" (ROM) removed.
+    The signal "cc1/core1/step_FSM_FFd3" is unused and has been removed.
+     Unused block "cc1/core1/step_FSM_FFd3" (FF) removed.
+      The signal "cc1/core1/comIn" is unused and has been removed.
+       Unused block "cc1/core1/comIn" (FF) removed.
+        The signal "cc1/core1/step_FSM_FFd1" is unused and has been removed.
+         Unused block "cc1/core1/step_FSM_FFd1" (FF) removed.
+  The signal "cc1/core1/command<0>" is unused and has been removed.
+   Unused block "cc1/core1/command_0" (FF) removed.
+    The signal "cc1/dinBus<6>" is unused and has been removed.
+     Unused block "cc1/dinBus<6>1" (ROM) removed.
+      The signal "cc1/dout1<6>" is unused and has been removed.
+The signal "N46" is unused and has been removed.
+ Unused block "cc1/core1/addr_mux0000<2>_SW1" (ROM) removed.
+  The signal "cc1/core1/addr<2>" is unused and has been removed.
+   Unused block "cc1/core1/addr_2" (FF) removed.
+    The signal "cc1/core1/addr_mux0000<2>" is unused and has been removed.
+     Unused block "cc1/core1/addr_mux0000<2>" (ROM) removed.
+      The signal "cc1/core1/addr<1>" is unused and has been removed.
+       Unused block "cc1/core1/addr_1" (FF) removed.
+        The signal "cc1/core1/addr_mux0000<1>" is unused and has been removed.
+         Unused block "cc1/core1/addr_mux0000<1>" (MUX) removed.
+          The signal "N61" is unused and has been removed.
+           Unused block "cc1/core1/addr_mux0000<1>_F" (ROM) removed.
+            The signal "cc1/core1/dAddr<1>" is unused and has been removed.
+             Unused block "cc1/core1/dAddr_1" (FF) removed.
+              The signal "cc1/core1/dAddr_mux0000<1>" is unused and has been removed.
+               Unused block "cc1/core1/Mmux_dAddr_mux00002" (MUX) removed.
+                The signal "N71" is unused and has been removed.
+                 Unused block "cc1/core1/Mmux_dAddr_mux00002_F" (ROM) removed.
+                  The signal "cc1/core1/command<1>" is unused and has been removed.
+                   Unused block "cc1/core1/command_1" (FF) removed.
+                    The signal "cc1/dinBus<7>" is unused and has been removed.
+                     Unused block "cc1/dinBus<7>1" (ROM) removed.
+                      The signal "cc1/dout1<7>" is unused and has been removed.
+                  The signal "cc1/core1/dest<1>" is unused and has been removed.
+                   Unused block "cc1/core1/dest_1" (FF) removed.
+                    The signal "cc1/dinBus<1>" is unused and has been removed.
+                     Unused block "cc1/dinBus<1>1" (ROM) removed.
+                      The signal "cc1/dout1<1>" is unused and has been removed.
+                The signal "N72" is unused and has been removed.
+                 Unused block "cc1/core1/Mmux_dAddr_mux00002_G" (ROM) removed.
+          The signal "N62" is unused and has been removed.
+           Unused block "cc1/core1/addr_mux0000<1>_G" (ROM) removed.
+            The signal "cc1/core1/addr<0>" is unused and has been removed.
+             Unused block "cc1/core1/addr_0" (FF) removed.
+              The signal "cc1/core1/addr_mux0000<0>" is unused and has been removed.
+               Unused block "cc1/core1/addr_mux0000<0>1" (ROM) removed.
+                The signal "cc1/core1/dAddr<0>" is unused and has been removed.
+                 Unused block "cc1/core1/dAddr_0" (FF) removed.
+                  The signal "cc1/core1/dAddr_mux0000<0>" is unused and has been removed.
+                   Unused block "cc1/core1/Mmux_dAddr_mux00001" (MUX) removed.
+                    The signal "N73" is unused and has been removed.
+                     Unused block "cc1/core1/Mmux_dAddr_mux00001_F" (ROM) removed.
+                      The signal "cc1/core1/dest<0>" is unused and has been removed.
+                       Unused block "cc1/core1/dest_0" (FF) removed.
+                        The signal "cc1/dinBus<0>" is unused and has been removed.
+                         Unused block "cc1/dinBus<0>1" (ROM) removed.
+                          The signal "cc1/dout1<0>" is unused and has been removed.
+                    The signal "N74" is unused and has been removed.
+                     Unused block "cc1/core1/Mmux_dAddr_mux00001_G" (ROM) removed.
+  The signal "cc1/core1/dAddr<2>" is unused and has been removed.
+   Unused block "cc1/core1/dAddr_2" (FF) removed.
+    The signal "cc1/core1/dAddr_mux0000<2>" is unused and has been removed.
+     Unused block "cc1/core1/Mmux_dAddr_mux00003" (MUX) removed.
+      The signal "N69" is unused and has been removed.
+       Unused block "cc1/core1/Mmux_dAddr_mux00003_F" (ROM) removed.
+        The signal "cc1/core1/dest<2>" is unused and has been removed.
+         Unused block "cc1/core1/dest_2" (FF) removed.
+          The signal "cc1/dinBus<2>" is unused and has been removed.
+           Unused block "cc1/dinBus<2>1" (ROM) removed.
+            The signal "cc1/dout1<2>" is unused and has been removed.
+      The signal "N70" is unused and has been removed.
+       Unused block "cc1/core1/Mmux_dAddr_mux00003_G" (ROM) removed.
+The signal "N55" is unused and has been removed.
+ Unused block "cc1/core1/addr_mux0000<5>1_SW3" (ROM) removed.
+  The signal "cc1/core1/addr<5>" is unused and has been removed.
+   Unused block "cc1/core1/addr_5" (FF) removed.
+    The signal "cc1/core1/addr_mux0000<5>" is unused and has been removed.
+     Unused block "cc1/core1/addr_mux0000<5>1" (ROM) removed.
+      The signal "cc1/core1/addr_mux0000<4>_bdd2" is unused and has been removed.
+       Unused block "cc1/core1/addr_mux0000<4>41" (ROM) removed.
+        The signal "cc1/core1/addr<3>" is unused and has been removed.
+         Unused block "cc1/core1/addr_3" (SFF) removed.
+          The signal "cc1/core1/addr_mux0000<3>56" is unused and has been removed.
+           Unused block "cc1/core1/addr_mux0000<3>561_f5" (MUX) removed.
+            The signal "cc1/core1/addr_mux0000<3>5611" is unused and has been removed.
+             Unused block "cc1/core1/addr_mux0000<3>5612" (ROM) removed.
+            The signal "cc1/core1/addr_mux0000<3>561" is unused and has been removed.
+             Unused block "cc1/core1/addr_mux0000<3>5611" (ROM) removed.
+              The signal "cc1/core1/addr_mux0000<3>22" is unused and has been removed.
+               Unused block "cc1/core1/addr_mux0000<3>22" (ROM) removed.
+          The signal "cc1/core1/addr_mux0000<3>0" is unused and has been removed.
+           Unused block "cc1/core1/addr_mux0000<3>0" (ROM) removed.
+            The signal "cc1/core1/dAddr<3>" is unused and has been removed.
+             Unused block "cc1/core1/dAddr_3" (FF) removed.
+              The signal "cc1/core1/dAddr_mux0000<3>" is unused and has been removed.
+               Unused block "cc1/core1/Mmux_dAddr_mux00004" (MUX) removed.
+                The signal "N67" is unused and has been removed.
+                 Unused block "cc1/core1/Mmux_dAddr_mux00004_F" (ROM) removed.
+                  The signal "cc1/core1/dest<3>" is unused and has been removed.
+                   Unused block "cc1/core1/dest_3" (FF) removed.
+                    The signal "cc1/dinBus<3>" is unused and has been removed.
+                     Unused block "cc1/dinBus<3>1" (ROM) removed.
+                      The signal "cc1/dout1<3>" is unused and has been removed.
+                The signal "N68" is unused and has been removed.
+                 Unused block "cc1/core1/Mmux_dAddr_mux00004_G" (ROM) removed.
+      The signal "cc1/core1/addr<4>" is unused and has been removed.
+       Unused block "cc1/core1/addr_4" (FF) removed.
+        The signal "cc1/core1/addr_mux0000<4>" is unused and has been removed.
+         Unused block "cc1/core1/addr_mux0000<4>1" (MUX) removed.
+          The signal "N75" is unused and has been removed.
+           Unused block "cc1/core1/addr_mux0000<4>1_F" (ROM) removed.
+            The signal "cc1/core1/dAddr<4>" is unused and has been removed.
+             Unused block "cc1/core1/dAddr_4" (FF) removed.
+              The signal "cc1/core1/dAddr_mux0000<4>" is unused and has been removed.
+               Unused block "cc1/core1/Mmux_dAddr_mux00005" (MUX) removed.
+                The signal "N63" is unused and has been removed.
+                 Unused block "cc1/core1/Mmux_dAddr_mux00005_F" (ROM) removed.
+                  The signal "cc1/core1/dest<4>" is unused and has been removed.
+                   Unused block "cc1/core1/dest_4" (FF) removed.
+                    The signal "cc1/dinBus<4>" is unused and has been removed.
+                     Unused block "cc1/dinBus<4>1" (ROM) removed.
+                      The signal "cc1/dout1<4>" is unused and has been removed.
+                The signal "N64" is unused and has been removed.
+                 Unused block "cc1/core1/Mmux_dAddr_mux00005_G" (ROM) removed.
+          The signal "N76" is unused and has been removed.
+           Unused block "cc1/core1/addr_mux0000<4>1_G" (ROM) removed.
+  The signal "cc1/core1/dAddr<5>" is unused and has been removed.
+   Unused block "cc1/core1/dAddr_5" (FF) removed.
+    The signal "cc1/core1/dAddr_mux0000<5>" is unused and has been removed.
+     Unused block "cc1/core1/Mmux_dAddr_mux00006" (MUX) removed.
+      The signal "N65" is unused and has been removed.
+       Unused block "cc1/core1/Mmux_dAddr_mux00006_F" (ROM) removed.
+        The signal "cc1/core1/dest<5>" is unused and has been removed.
+         Unused block "cc1/core1/dest_5" (FF) removed.
+          The signal "cc1/dinBus<5>" is unused and has been removed.
+           Unused block "cc1/dinBus<5>1" (ROM) removed.
+            The signal "cc1/dout1<5>" is unused and has been removed.
+      The signal "N66" is unused and has been removed.
+       Unused block "cc1/core1/Mmux_dAddr_mux00006_G" (ROM) removed.
+The signal "cc1/addr1<0>" is unused and has been removed.
+ Unused block "cc1/addr1<0>1" (ROM) removed.
+  The signal "cc1/addr<0>" is unused and has been removed.
+   Unused block "cc1/addr_0" (FF) removed.
+  The signal "cc1/prog1_1" is unused and has been removed.
+   Unused block "cc1/prog1_1" (FF) removed.
+The signal "cc1/addr1<1>" is unused and has been removed.
+ Unused block "cc1/addr1<1>1" (ROM) removed.
+  The signal "cc1/addr<1>" is unused and has been removed.
+   Unused block "cc1/addr_1" (FF) removed.
+The signal "cc1/addr1<2>" is unused and has been removed.
+ Unused block "cc1/addr1<2>1" (ROM) removed.
+The signal "cc1/addr1<3>" is unused and has been removed.
+ Unused block "cc1/addr1<3>1" (ROM) removed.
+The signal "cc1/addr1<4>" is unused and has been removed.
+ Unused block "cc1/addr1<4>1" (ROM) removed.
+The signal "cc1/addr1<5>" is unused and has been removed.
+ Unused block "cc1/addr1<5>1" (ROM) removed.
+The signal "cc1/core1/doutBus<0>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_0" (FF) removed.
+  The signal "cc1/core1/doutBus_not0001" is unused and has been removed.
+   Unused block "cc1/core1/doutBus_not00011" (ROM) removed.
+  The signal "cc1/core1/storage<0>" is unused and has been removed.
+   Unused block "cc1/core1/storage_0" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<0>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<0>" (ROM) removed.
+The signal "cc1/core1/doutBus<1>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_1" (FF) removed.
+  The signal "cc1/core1/storage<1>" is unused and has been removed.
+   Unused block "cc1/core1/storage_1" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<1>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<1>" (ROM) removed.
+The signal "cc1/core1/doutBus<2>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_2" (FF) removed.
+  The signal "cc1/core1/storage<2>" is unused and has been removed.
+   Unused block "cc1/core1/storage_2" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<2>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<2>" (ROM) removed.
+The signal "cc1/core1/doutBus<3>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_3" (FF) removed.
+  The signal "cc1/core1/storage<3>" is unused and has been removed.
+   Unused block "cc1/core1/storage_3" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<3>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<3>" (ROM) removed.
+The signal "cc1/core1/doutBus<4>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_4" (FF) removed.
+  The signal "cc1/core1/storage<4>" is unused and has been removed.
+   Unused block "cc1/core1/storage_4" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<4>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<4>" (ROM) removed.
+The signal "cc1/core1/doutBus<5>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_5" (FF) removed.
+  The signal "cc1/core1/storage<5>" is unused and has been removed.
+   Unused block "cc1/core1/storage_5" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<5>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<5>" (ROM) removed.
+The signal "cc1/core1/doutBus<6>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_6" (FF) removed.
+  The signal "cc1/core1/storage<6>" is unused and has been removed.
+   Unused block "cc1/core1/storage_6" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<6>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<6>" (ROM) removed.
+The signal "cc1/core1/doutBus<7>" is unused and has been removed.
+ Unused block "cc1/core1/doutBus_7" (FF) removed.
+  The signal "cc1/core1/storage<7>" is unused and has been removed.
+   Unused block "cc1/core1/storage_7" (FF) removed.
+    The signal "cc1/core1/storage_mux0000<7>" is unused and has been removed.
+     Unused block "cc1/core1/storage_mux0000<7>" (ROM) removed.
+The signal "cc1/din1<0>" is unused and has been removed.
+ Unused block "cc1/din1<0>1" (ROM) removed.
+  The signal "cc1/progDout<5>" is unused and has been removed.
+   Unused block "cc1/progDout_5" (FF) removed.
+    The signal "data<0>" is unused and has been removed.
+     Unused block "data<0>1" (ROM) removed.
+  The signal "cc1/prog1_2" is unused and has been removed.
+   Unused block "cc1/prog1_2" (FF) removed.
+The signal "cc1/din1<1>" is unused and has been removed.
+ Unused block "cc1/din1<1>1" (ROM) removed.
+  The signal "cc1/progDout<1>" is unused and has been removed.
+   Unused block "cc1/progDout_1" (FF) removed.
+    The signal "data<1>" is unused and has been removed.
+     Unused block "Mrom_data3111" (ROM) removed.
+The signal "cc1/din1<2>" is unused and has been removed.
+ Unused block "cc1/din1<2>1" (ROM) removed.
+The signal "cc1/din1<3>" is unused and has been removed.
+ Unused block "cc1/din1<3>1" (ROM) removed.
+The signal "cc1/din1<4>" is unused and has been removed.
+ Unused block "cc1/din1<4>1" (ROM) removed.
+The signal "cc1/din1<5>" is unused and has been removed.
+ Unused block "cc1/din1<5>1" (ROM) removed.
+The signal "cc1/din1<6>" is unused and has been removed.
+ Unused block "cc1/din1<6>1" (ROM) removed.
+  The signal "cc1/progDout<6>" is unused and has been removed.
+   Unused block "cc1/progDout_6" (FF) removed.
+    The signal "data<6>" is unused and has been removed.
+     Unused block "Mrom_data12212" (ROM) removed.
+The signal "cc1/din1<7>" is unused and has been removed.
+ Unused block "cc1/din1<7>1" (ROM) removed.
+  The signal "cc1/progDout<7>" is unused and has been removed.
+   Unused block "cc1/progDout_7" (FF) removed.
+    The signal "data<7>" is unused and has been removed.
+     Unused block "Mrom_data14111" (ROM) removed.
+The signal "cc1/ram1_not0000" is unused and has been removed.
+ Unused block "cc1/ram1_not00001_INV_0" (BUF) removed.
+The signal "cc1/core1/addr_mux0000<2>_SW0/O" is unused and has been removed.
+ Unused block "cc1/core1/addr_mux0000<2>_SW0" (ROM) removed.
+The signal "cc1/core1/addr_mux0000<5>1_SW2/O" is unused and has been removed.
+ Unused block "cc1/core1/addr_mux0000<5>1_SW2" (ROM) removed.
+Unused block
+"cc1/ram1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/raml
+oop[0].ram.r/s3a_init.ram/spram.ram" (RAMB16BWE) removed.
+Unused block "cc1/ram1/XST_GND" (ZERO) removed.
+Unused block "cc1/ram1/XST_VCC" (ONE) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew    | Reg (s)      | Resistor | IBUF/IFD | SUSPEND          |
+|                                    |                  |           |                      | Term  | Strength | Rate    |              |          | Delay    |                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IBUF             | INPUT     | LVCMOS25             |       |          |         |              |          | 0 / 0    |                  |
+| en<0>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| en<1>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| en<2>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| seg<0>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    | OFF1         |          | 0 / 0    | 3STATE           |
+| seg<1>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| seg<2>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| seg<3>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| seg<4>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| seg<5>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| seg<6>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
+| seg<7>                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW    |              |          | 0 / 0    | 3STATE           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

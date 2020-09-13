@@ -1,0 +1,1212 @@
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-5 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "C:/Users/michal/Desktop/sdCardTest/coreController.xst" -ofn "C:/Users/michal/Desktop/sdCardTest/coreController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc coreController.ucf -p xc3s50a-tq144-4 coreController.ngc coreController.ngd  
+map -intstyle ise -p xc3s50a-tq144-4 -cm area -ir off -pr off -c 100 -o coreController_map.ncd coreController.ngd coreController.pcf 
+par -w -intstyle ise -ol high -t 1 coreController_map.ncd coreController.ncd coreController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml coreController.twx coreController.ncd -o coreController.twr coreController.pcf -ucf coreController.ucf 
+bitgen -intstyle ise -f coreController.ut coreController.ncd 
+xst -intstyle ise -ifn "C:/Users/michal/Desktop/sdCardTest/coreController.xst" -ofn "C:/Users/michal/Desktop/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "C:/Users/michal/Desktop/sdCardTest/coreController.xst" -ofn "C:/Users/michal/Desktop/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 
+xst -intstyle ise -ifn "D:/ISE/projects/sdCardTest/coreController.xst" -ofn "D:/ISE/projects/sdCardTest/coreController.syr" 

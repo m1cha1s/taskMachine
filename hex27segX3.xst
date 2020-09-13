@@ -1,0 +1,5 @@
+set -tmpdir "D:/ISE/projects/sdCardTest/xst/projnav.tmp"
+set -xsthdpdir "D:/ISE/projects/sdCardTest/xst"
+elaborate
+-ifn hex27segX3.prj
+-ifmt mixed

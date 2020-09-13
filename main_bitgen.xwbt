@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ISE\projects\sdCardTest\main.ncd
+OUTFILE=D:\ISE\projects\sdCardTest\main.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=D:\ISE\projects\sdCardTest
+LICENSE=WebPack
+USER_INFO=211758385_0_0_137

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\michal\Desktop\sdCardTest\coreController.ncd
+OUTFILE=C:\Users\michal\Desktop\sdCardTest\coreController.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-4tq144
+WORKINGDIR=C:\Users\michal\Desktop\sdCardTest
+LICENSE=WebPack
+USER_INFO=211758385_0_0_137

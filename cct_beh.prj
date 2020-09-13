@@ -1,0 +1,8 @@
+verilog work "vgaDriver.v"
+verilog work "clk.v"
+verilog work "hex27segX3.v"
+verilog work "gpio.v"
+verilog work "core.v"
+verilog work "coreController.v"
+verilog work "cct.v"
+verilog work "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

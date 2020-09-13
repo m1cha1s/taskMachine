@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ISE/projects/sdCardTest/mainT_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mainT" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/mainT/seg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">en[2:0]</obj_property>
+      <obj_property name="ObjectShortName">en[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/core1/command" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">command[1:0]</obj_property>
+      <obj_property name="ObjectShortName">command[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/core1/dest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dest[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dest[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/core1/dAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dAddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dAddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/core1/dinBus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dinBus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dinBus[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/core1/storage" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">storage[7:0]</obj_property>
+      <obj_property name="ObjectShortName">storage[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/core1/step" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">step[1:0]</obj_property>
+      <obj_property name="ObjectShortName">step[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/hlt1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hlt1</obj_property>
+      <obj_property name="ObjectShortName">hlt1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/prog1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">prog1</obj_property>
+      <obj_property name="ObjectShortName">prog1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/c1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c1</obj_property>
+      <obj_property name="ObjectShortName">c1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainT/uut/cc1/core1/comIn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">comIn</obj_property>
+      <obj_property name="ObjectShortName">comIn</obj_property>
+   </wvobject>
+</wave_config>
